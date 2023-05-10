@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+.navbar ul li a{
+   margin-right: 20px;
+   color: black;
+   font-weight: 400;
+   text-decoration: none;
+}
+.navbar ul li a:hover{
+    color:#884efa;
+}
+.navbar {
+    border-bottom:1px solid rgba(204, 209, 204, 0.733);
+}
+#navbarNav .navbar-button{
+    background-color: #007BFF;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 15px;
+    border: none;
+    text-decoration: none;
+    color:  white;
+    font-weight: 500;
+}
+.navbar-button2{
+    background-color: #0E1227;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    text-decoration: none;
+    color:  white;
+    font-weight: 500;
+
+}
+.navbar ul li a:active{
+    color: aqua;
+}
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-weight: 600;
+}
+.banner-text{
+    color: #787b8a;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    width: 100px;
+   
+}
+.btn-div{
+    text-align: center;
+}
+.banner-btn{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #007BFF;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+.form-card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 13px;
+    min-height: 550px;
+
+}
+.form-card .heading{
+    color:#3e4047;
+    font-size: 16px;
+    font-weight: 600;
+}
+.form-card span{
+    color: #728096;
+}
+.form-btn{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #007BFF;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.btn-div-form{
+    text-align: center;
+}
+.btn-row{
+    text-align: center;
+}
+.btn-register{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.btn-row span{
+    color:#787b8a;
+    font-size: 13px;
+    
+}
+.item{
+    display: inline;
+}
+.twolines{
+    text-align: center;
+    font-weight: 600;
+    color: #616d80;
+}
+.twolines span{
+    font-size: 20px;
+}
+.twolines h4{
+    color: black !important;
+}
+.benefit-text{
+    font-weight: 500;
+    font-size:17px !important; 
+}
+.sidemenu{
+    vertical-align: center;
+}
+.slidermain-card{
+    border: 1px solid #babcc5;
+    border-radius: 20px;
+}
+.slidermain-card span{
+    color: #616d80;
+}
+.benefit-card{
+    border: 1px solid #babcc5;
+    border-radius: 20px;
+}
+.benefit-card span{
+    color: #616d80;
+    
+}
+.heading-benefit{
+    font-weight: 600 ;
+    color: black !important;
+    margin-bottom: 10px;
+}
+.benefit-card img {
+    border: 1px solid #babcc5;
+    border-radius: 10px;
+    padding: 5px;
+}
+.hagarow{
+    text-align: center;
+}
+.hagarow span{
+    color: #616d80;
+    font-size: 14px;
+}
+.haga-line{
+    font-weight: 600;
+}
+.buttonrow{
+    text-align: center;
+}
+.vearow{
+    text-align: center;
+}
+.vearow span{
+    color: #616d80;
+    font-size: 14px;
+}
+.haga-line{
+    font-weight: 600;
+}
+.vearow a{
+    color: #884efa;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.vearow a:hover{
+    text-decoration: none;
+}
+.review-card{
+    border: 1px solid #babcc5;
+    border-radius: 20px;
+}
+.review-card .rating{
+    color: rgb(255, 208, 0);
+}
+.review-card span{
+    font-weight: 600;
+    font-size: 14px;
+}
+.sponserrow{
+    text-align: center;
+}
+.sponser-card{
+    text-align: center;
+    border: none;
+}
+.sponserrow span{
+    color: #616d80;
+    font-size: 14px;
+}
+.subscription{
+    text-align: center;
+}
+.subscription .plans{
+    font-size: 20px;
+}
+.questions{
+    text-align: center;
+}
+.questions h4{
+    font-weight: 600;
+}
+#accordion .card{
+    background-color: white;
+    border: 1px solid #babcc5;
+    border-radius: 20px;
+}
+#accordionExample .card-header{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #d4dff0;
+    
+}
+#accordionExample .card-header #btnCollapse{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+}
+#accordion .question-btn{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+}
+.last-banner{
+    text-align: center;
+}
+.banner-card{
+    background: radial-gradient(closest-side,#e66465, #884efa);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.company{
+    font-weight: 600;
+    font-size: large;
+}
+.banner-heading span{
+    font-size:xxx-large;
+    font-weight: 700;
+}
+.banner-btn-last button{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #0E1227;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer{
+    background-color: #0E1227;
+    color: white;
+}
+.footer .company-heading{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.footer-text{
+font-size: 15px;
+}
+.social-icons span{
+    color: white;
+}
+.footer-button button{
+    border-radius: 10px;
+    border: 1 px solid #787b8a;
+    color: white;
+    font-size: small;
+    background-color: #0E1227;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-menu ul li{
+    list-style: none;
+    font-size: 14px;
+}
+.heading-menu{
+    color: #a4b0c4;
+}
+.lastpromotion{
+    font-size: 16px;
+}
+.footer{
+    padding: 40px;
+}
+.converted button{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: #884efa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.slidermain ul li{
+
+    list-style: none;
+    color: #787b8a;
+}
+.slidermain ul li label:hover{
+    cursor: pointer;
+    background-color: #884efa;
+    color: white;
+    
+}
+.slidermain ul li label{
+    border: 1px solid #a4b0c4;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    font-size:larger;
+    margin-top: 20px;
+}
+.slidermain input[type="radio"]:checked + label {
+   
+    background-color: #884efa;
+    color: white;
+  }
+
+
+
+/* Hide default radio button */
+input[type="radio"] {
+    display: none;
+  }
+
+
+  
+  /* Style label to look like a button */
+  .labelradio {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style label when radio button is checked */
+  .subscription input[type="radio"]:checked + label {
+    background-color: #884efa;
+    color: white;
+  }
+
+  .desc { display: none; }
+
+  .price-card{
+    border: 1px solid #b9cdee;
+    border-radius: 10px;
+    min-height: 500px;
+  }
+  .price-card .price{
+    font-size: xx-large;
+    color: #728096;
+  }
+  .price-card .price-unit{
+    font-size: smaller;
+    margin-top: 50px;
+  }
+  .price-card button{
+    border-radius: 30px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #007BFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .price-card ul li{
+    list-style: none;
+    
+  }
+
+
+
+  
+
+
+
+  
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar ul li a{
+margin-top: 10px;}
+}
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .navbar ul li a{
+        margin-top: 10px;
+        }
+}
